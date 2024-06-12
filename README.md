@@ -17,8 +17,10 @@
 ## 기술 구현 목표
 < STM32 MCU KIT 활용 >
 1. DC Motor로 런닝머신 구현
-2. Push Button으로 런닝머신 기능을 추가 (1번 Start/Stop, 2번 속도 감소(--), 3번 속도 증가(++)PWM제어)
-3. LCD에 km, kcal 출력, Kcal는 평균 체중을 기반으로 계산 하였음(Km = 속력 x 시간, Kcal = 0.0157*((0.1 * 속도 + 3.5) / 3.5)* 체중 * 시간)
+2. Push Button으로 런닝머신 기능을 추가<br>
+(1번 Start/Stop, 2번 속도 감소(--), 3번 속도 증가(++)PWM제어)
+3. LCD에 km, kcal 출력, Kcal는 평균 체중을 기반으로 계산 하였음<br>
+(Km = 속력 x 시간, Kcal = 0.0157*((0.1 * 속도 + 3.5) / 3.5)* 체중 * 시간)
 4. Array FND, 4자리 FND에 UpCount를 구현하고 Motor가 동작할 때만 Count 되는 기능을 추가
 5. BlueTooth로 결과를 DB에 전송
 
